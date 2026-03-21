@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Personas.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58703;http://localhost:58704"
+    }
+  }
+}

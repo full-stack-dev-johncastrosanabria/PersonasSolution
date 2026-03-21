@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Personas.Api/Personas.Api.vbproj" />
   <Project Path="Personas.Business/Personas.Business.vbproj" Id="89548f08-8cca-48e5-9233-d9634e6040bd" />
   <Project Path="Personas.EF/Personas.EF.vbproj" Id="d520bd72-8cd6-40d3-8aa5-4bbb4c51b6b9" />
   <Project Path="Personas.Repository/Personas.Repository.vbproj" Id="47bd85d8-1926-4d19-8c63-d54cbce1ee94" />

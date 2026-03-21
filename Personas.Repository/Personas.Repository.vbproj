@@ -5,4 +5,8 @@
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Personas.EF\Personas.EF.vbproj" />
+  </ItemGroup>
+
 </Project>
