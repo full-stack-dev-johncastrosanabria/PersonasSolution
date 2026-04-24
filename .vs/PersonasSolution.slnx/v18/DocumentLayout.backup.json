@@ -1,0 +1,238 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89548F08-8CCA-48E5-9233-D9634E6040BD}|Personas.Business\\Personas.Business.vbproj|c:\\users\\johnbenjamincastrosa\\source\\repos\\personassolution\\personas.business\\personaservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{89548F08-8CCA-48E5-9233-D9634E6040BD}|Personas.Business\\Personas.Business.vbproj|solutionrelative:personas.business\\personaservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89548F08-8CCA-48E5-9233-D9634E6040BD}|Personas.Business\\Personas.Business.vbproj|c:\\users\\johnbenjamincastrosa\\source\\repos\\personassolution\\personas.business\\ipersonaservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{89548F08-8CCA-48E5-9233-D9634E6040BD}|Personas.Business\\Personas.Business.vbproj|solutionrelative:personas.business\\ipersonaservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520BD72-8CD6-40D3-8AA5-4BBB4C51B6B9}|Personas.EF\\Personas.EF.vbproj|c:\\users\\johnbenjamincastrosa\\source\\repos\\personassolution\\personas.ef\\appdbcontext.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D520BD72-8CD6-40D3-8AA5-4BBB4C51B6B9}|Personas.EF\\Personas.EF.vbproj|solutionrelative:personas.ef\\appdbcontext.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520BD72-8CD6-40D3-8AA5-4BBB4C51B6B9}|Personas.EF\\Personas.EF.vbproj|c:\\users\\johnbenjamincastrosa\\source\\repos\\personassolution\\personas.ef\\persona.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D520BD72-8CD6-40D3-8AA5-4BBB4C51B6B9}|Personas.EF\\Personas.EF.vbproj|solutionrelative:personas.ef\\persona.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BD85D8-1926-4D19-8C63-D54CBCE1EE94}|Personas.Repository\\Personas.Repository.vbproj|c:\\users\\johnbenjamincastrosa\\source\\repos\\personassolution\\personas.repository\\ipersonarepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{47BD85D8-1926-4D19-8C63-D54CBCE1EE94}|Personas.Repository\\Personas.Repository.vbproj|solutionrelative:personas.repository\\ipersonarepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BD85D8-1926-4D19-8C63-D54CBCE1EE94}|Personas.Repository\\Personas.Repository.vbproj|c:\\users\\johnbenjamincastrosa\\source\\repos\\personassolution\\personas.repository\\personarepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{47BD85D8-1926-4D19-8C63-D54CBCE1EE94}|Personas.Repository\\Personas.Repository.vbproj|solutionrelative:personas.repository\\personarepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFB05251-67E3-D8FA-37B6-F57B9301B06A}|Personas.Api\\Personas.Api.vbproj|c:\\users\\johnbenjamincastrosa\\source\\repos\\personassolution\\personas.api\\controllers\\personascontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FFB05251-67E3-D8FA-37B6-F57B9301B06A}|Personas.Api\\Personas.Api.vbproj|solutionrelative:personas.api\\controllers\\personascontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFB05251-67E3-D8FA-37B6-F57B9301B06A}|Personas.Api\\Personas.Api.vbproj|c:\\users\\johnbenjamincastrosa\\source\\repos\\personassolution\\personas.api\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FFB05251-67E3-D8FA-37B6-F57B9301B06A}|Personas.Api\\Personas.Api.vbproj|solutionrelative:personas.api\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89548F08-8CCA-48E5-9233-D9634E6040BD}|Personas.Business\\Personas.Business.vbproj|c:\\users\\johnbenjamincastrosa\\source\\repos\\personassolution\\personas.business\\dtomodels.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{89548F08-8CCA-48E5-9233-D9634E6040BD}|Personas.Business\\Personas.Business.vbproj|solutionrelative:personas.business\\dtomodels.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFB05251-67E3-D8FA-37B6-F57B9301B06A}|Personas.Api\\Personas.Api.vbproj|c:\\users\\johnbenjamincastrosa\\source\\repos\\personassolution\\personas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FFB05251-67E3-D8FA-37B6-F57B9301B06A}|Personas.Api\\Personas.Api.vbproj|solutionrelative:personas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89548F08-8CCA-48E5-9233-D9634E6040BD}|Personas.Business\\Personas.Business.vbproj|c:\\users\\johnbenjamincastrosa\\source\\repos\\personassolution\\personas.business\\class1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{89548F08-8CCA-48E5-9233-D9634E6040BD}|Personas.Business\\Personas.Business.vbproj|solutionrelative:personas.business\\class1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BD85D8-1926-4D19-8C63-D54CBCE1EE94}|Personas.Repository\\Personas.Repository.vbproj|c:\\users\\johnbenjamincastrosa\\source\\repos\\personassolution\\personas.repository\\class1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{47BD85D8-1926-4D19-8C63-D54CBCE1EE94}|Personas.Repository\\Personas.Repository.vbproj|solutionrelative:personas.repository\\class1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D520BD72-8CD6-40D3-8AA5-4BBB4C51B6B9}|Personas.EF\\Personas.EF.vbproj|c:\\users\\johnbenjamincastrosa\\source\\repos\\personassolution\\personas.ef\\class1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D520BD72-8CD6-40D3-8AA5-4BBB4C51B6B9}|Personas.EF\\Personas.EF.vbproj|solutionrelative:personas.ef\\class1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.vb",
+              "DocumentMoniker": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\AppDbContext.vb",
+              "RelativeDocumentMoniker": "Personas.EF\\AppDbContext.vb",
+              "ToolTip": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\AppDbContext.vb",
+              "RelativeToolTip": "Personas.EF\\AppDbContext.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-03-21T01:21:43.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPersonaService.vb",
+              "DocumentMoniker": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Business\\IPersonaService.vb",
+              "RelativeDocumentMoniker": "Personas.Business\\IPersonaService.vb",
+              "ToolTip": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Business\\IPersonaService.vb",
+              "RelativeToolTip": "Personas.Business\\IPersonaService.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-03-21T03:52:06.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonaService.vb",
+              "DocumentMoniker": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Business\\PersonaService.vb",
+              "RelativeDocumentMoniker": "Personas.Business\\PersonaService.vb",
+              "ToolTip": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Business\\PersonaService.vb",
+              "RelativeToolTip": "Personas.Business\\PersonaService.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-03-21T01:28:21.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Persona.vb",
+              "DocumentMoniker": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\Persona.vb",
+              "RelativeDocumentMoniker": "Personas.EF\\Persona.vb",
+              "ToolTip": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\Persona.vb",
+              "RelativeToolTip": "Personas.EF\\Persona.vb",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-03-21T05:53:40.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonaRepository.vb",
+              "DocumentMoniker": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Repository\\PersonaRepository.vb",
+              "RelativeDocumentMoniker": "Personas.Repository\\PersonaRepository.vb",
+              "ToolTip": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Repository\\PersonaRepository.vb",
+              "RelativeToolTip": "Personas.Repository\\PersonaRepository.vb",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwA0AAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-03-21T01:26:16.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PersonasController.vb",
+              "DocumentMoniker": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Api\\Controllers\\PersonasController.vb",
+              "RelativeDocumentMoniker": "Personas.Api\\Controllers\\PersonasController.vb",
+              "ToolTip": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Api\\Controllers\\PersonasController.vb",
+              "RelativeToolTip": "Personas.Api\\Controllers\\PersonasController.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-03-21T01:40:12.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.vb",
+              "DocumentMoniker": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Api\\Program.vb",
+              "RelativeDocumentMoniker": "Personas.Api\\Program.vb",
+              "ToolTip": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Api\\Program.vb",
+              "RelativeToolTip": "Personas.Api\\Program.vb",
+              "ViewState": "AgIAAAwAAACAZmZmZmYXwC4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-03-21T01:45:01.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPersonaRepository.vb",
+              "DocumentMoniker": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Repository\\IPersonaRepository.vb",
+              "RelativeDocumentMoniker": "Personas.Repository\\IPersonaRepository.vb",
+              "ToolTip": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Repository\\IPersonaRepository.vb",
+              "RelativeToolTip": "Personas.Repository\\IPersonaRepository.vb",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowAUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-03-21T01:27:44.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DtoModels.vb",
+              "DocumentMoniker": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Business\\DtoModels.vb",
+              "RelativeDocumentMoniker": "Personas.Business\\DtoModels.vb",
+              "ToolTip": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Business\\DtoModels.vb",
+              "RelativeToolTip": "Personas.Business\\DtoModels.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-03-21T03:22:08.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Personas.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Api\\appsettings.json",
+              "RelativeToolTip": "Personas.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-21T02:01:13.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Class1.vb",
+              "DocumentMoniker": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Business\\Class1.vb",
+              "RelativeDocumentMoniker": "Personas.Business\\Class1.vb",
+              "ToolTip": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Business\\Class1.vb",
+              "RelativeToolTip": "Personas.Business\\Class1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-03-21T00:50:18.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Class1.vb",
+              "DocumentMoniker": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Repository\\Class1.vb",
+              "RelativeDocumentMoniker": "Personas.Repository\\Class1.vb",
+              "ToolTip": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Repository\\Class1.vb",
+              "RelativeToolTip": "Personas.Repository\\Class1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-03-21T00:49:36.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Class1.vb",
+              "DocumentMoniker": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\Class1.vb",
+              "RelativeDocumentMoniker": "Personas.EF\\Class1.vb",
+              "ToolTip": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\Class1.vb",
+              "RelativeToolTip": "Personas.EF\\Class1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-03-21T00:48:38.61Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

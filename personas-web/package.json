@@ -8,7 +8,9 @@
     "build": "vite build"
   },
   "dependencies": {
-    "vue": "^3.4.0"
+    "axios": "^1.13.6",
+    "vue": "^3.4.0",
+    "vue-router": "^5.0.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.4",
