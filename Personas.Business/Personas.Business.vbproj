@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Personas.EF\Personas.EF.vbproj" />
     <ProjectReference Include="..\Personas.Repository\Personas.Repository.vbproj" />
   </ItemGroup>

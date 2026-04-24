@@ -46,8 +46,6 @@ Namespace Personas.Business
         End Function
 
         Public Async Function CreateAsync(dto As PersonaCreateUpdateDto) As Task(Of PersonaDetailDto) Implements IPersonaService.CreateAsync
-            ValidatePersona(dto)
-
             If Await _repository.ExistsIdentificacionAsync(dto.Identificacion.Trim()) Then
                 Throw New InvalidOperationException("La identificación ya existe.")
             End If
@@ -71,8 +69,6 @@ Namespace Personas.Business
         End Function
 
         Public Async Function UpdateAsync(id As Integer, dto As PersonaCreateUpdateDto) As Task(Of PersonaDetailDto) Implements IPersonaService.UpdateAsync
-            ValidatePersona(dto)
-
             If Await _repository.ExistsIdentificacionAsync(dto.Identificacion.Trim(), id) Then
                 Throw New InvalidOperationException("La identificación ya existe.")
             End If
@@ -111,8 +107,6 @@ Namespace Personas.Business
         End Function
 
         Public Async Function AddDireccionAsync(personaId As Integer, dto As DireccionCreateUpdateDto) As Task(Of DireccionDto) Implements IPersonaService.AddDireccionAsync
-            ValidateDireccion(dto)
-
             Dim persona = Await _repository.GetByIdAsync(personaId)
             If persona Is Nothing Then
                 Throw New KeyNotFoundException("Persona no encontrada.")
@@ -148,8 +142,6 @@ Namespace Personas.Business
         End Function
 
         Public Async Function UpdateDireccionAsync(id As Integer, dto As DireccionCreateUpdateDto) As Task(Of DireccionDto) Implements IPersonaService.UpdateDireccionAsync
-            ValidateDireccion(dto)
-
             Dim direccion = Await _repository.GetDireccionByIdAsync(id)
             If direccion Is Nothing Then
                 Throw New KeyNotFoundException("Dirección no encontrada.")
@@ -187,21 +179,6 @@ Namespace Personas.Business
             Await _repository.DeleteDireccionAsync(direccion)
             Await _repository.SaveChangesAsync()
         End Function
-
-        Private Sub ValidatePersona(dto As PersonaCreateUpdateDto)
-            If String.IsNullOrWhiteSpace(dto.Identificacion) Then Throw New InvalidOperationException("Identificación requerida.")
-            If String.IsNullOrWhiteSpace(dto.Nombre) Then Throw New InvalidOperationException("Nombre requerido.")
-            If String.IsNullOrWhiteSpace(dto.Apellidos) Then Throw New InvalidOperationException("Apellidos requeridos.")
-            If String.IsNullOrWhiteSpace(dto.Correo) Then Throw New InvalidOperationException("Correo requerido.")
-            If dto.FechaNacimiento = Date.MinValue Then Throw New InvalidOperationException("Fecha de nacimiento requerida.")
-        End Sub
-
-        Private Sub ValidateDireccion(dto As DireccionCreateUpdateDto)
-            If String.IsNullOrWhiteSpace(dto.Provincia) Then Throw New InvalidOperationException("Provincia requerida.")
-            If String.IsNullOrWhiteSpace(dto.Canton) Then Throw New InvalidOperationException("Canton requerido.")
-            If String.IsNullOrWhiteSpace(dto.Distrito) Then Throw New InvalidOperationException("Distrito requerido.")
-            If String.IsNullOrWhiteSpace(dto.DireccionExacta) Then Throw New InvalidOperationException("Dirección exacta requerida.")
-        End Sub
 
         Private Function MapPersonaDetail(persona As Persona) As PersonaDetailDto
             Return New PersonaDetailDto With {
