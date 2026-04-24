@@ -1,46 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Api\\Personas.Api.vbproj": {}
+    "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Api/Personas.Api.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Api\\Personas.Api.vbproj": {
+    "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Api/Personas.Api.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Api\\Personas.Api.vbproj",
+        "projectUniqueName": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Api/Personas.Api.vbproj",
         "projectName": "Personas.Api",
-        "projectPath": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Api\\Personas.Api.vbproj",
-        "packagesPath": "C:\\Users\\johnbenjamincastrosa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Api\\obj\\",
+        "projectPath": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Api/Personas.Api.vbproj",
+        "packagesPath": "/Users/johnbenjamincastrosanabria/.nuget/packages/",
+        "outputPath": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Api/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\johnbenjamincastrosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/johnbenjamincastrosanabria/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Business\\Personas.Business.vbproj": {
-                "projectPath": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Business\\Personas.Business.vbproj"
+              "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Business/Personas.Business.vbproj": {
+                "projectPath": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Business/Personas.Business.vbproj"
               },
-              "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\Personas.EF.vbproj": {
-                "projectPath": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\Personas.EF.vbproj"
+              "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.EF/Personas.EF.vbproj": {
+                "projectPath": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.EF/Personas.EF.vbproj"
               },
-              "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Repository\\Personas.Repository.vbproj": {
-                "projectPath": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Repository\\Personas.Repository.vbproj"
+              "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Repository/Personas.Repository.vbproj": {
+                "projectPath": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Repository/Personas.Repository.vbproj"
               }
             }
           }
@@ -55,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -86,19 +79,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.25, 8.0.25]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.win-arm64",
-              "version": "[8.0.23, 8.0.23]"
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.25, 8.0.25]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.25, 8.0.25]"
             }
           ],
           "frameworkReferences": {
@@ -109,44 +98,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/local/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Business\\Personas.Business.vbproj": {
+    "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Business/Personas.Business.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Business\\Personas.Business.vbproj",
+        "projectUniqueName": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Business/Personas.Business.vbproj",
         "projectName": "Personas.Business",
-        "projectPath": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Business\\Personas.Business.vbproj",
-        "packagesPath": "C:\\Users\\johnbenjamincastrosa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Business\\obj\\",
+        "projectPath": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Business/Personas.Business.vbproj",
+        "packagesPath": "/Users/johnbenjamincastrosanabria/.nuget/packages/",
+        "outputPath": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Business/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\johnbenjamincastrosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/johnbenjamincastrosanabria/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\Personas.EF.vbproj": {
-                "projectPath": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\Personas.EF.vbproj"
+              "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.EF/Personas.EF.vbproj": {
+                "projectPath": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.EF/Personas.EF.vbproj"
               },
-              "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Repository\\Personas.Repository.vbproj": {
-                "projectPath": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Repository\\Personas.Repository.vbproj"
+              "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Repository/Personas.Repository.vbproj": {
+                "projectPath": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Repository/Personas.Repository.vbproj"
               }
             }
           }
@@ -161,7 +143,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -180,15 +162,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.25, 8.0.25]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.25, 8.0.25]"
             }
           ],
           "frameworkReferences": {
@@ -196,33 +174,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/local/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\Personas.EF.vbproj": {
+    "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.EF/Personas.EF.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\Personas.EF.vbproj",
+        "projectUniqueName": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.EF/Personas.EF.vbproj",
         "projectName": "Personas.EF",
-        "projectPath": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\Personas.EF.vbproj",
-        "packagesPath": "C:\\Users\\johnbenjamincastrosa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\obj\\",
+        "projectPath": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.EF/Personas.EF.vbproj",
+        "packagesPath": "/Users/johnbenjamincastrosanabria/.nuget/packages/",
+        "outputPath": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.EF/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\johnbenjamincastrosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/johnbenjamincastrosanabria/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -241,7 +212,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -276,15 +247,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.25, 8.0.25]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.25, 8.0.25]"
             }
           ],
           "frameworkReferences": {
@@ -292,41 +259,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/local/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Repository\\Personas.Repository.vbproj": {
+    "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Repository/Personas.Repository.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Repository\\Personas.Repository.vbproj",
+        "projectUniqueName": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Repository/Personas.Repository.vbproj",
         "projectName": "Personas.Repository",
-        "projectPath": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Repository\\Personas.Repository.vbproj",
-        "packagesPath": "C:\\Users\\johnbenjamincastrosa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.Repository\\obj\\",
+        "projectPath": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Repository/Personas.Repository.vbproj",
+        "packagesPath": "/Users/johnbenjamincastrosanabria/.nuget/packages/",
+        "outputPath": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.Repository/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\johnbenjamincastrosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/johnbenjamincastrosanabria/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\Personas.EF.vbproj": {
-                "projectPath": "C:\\Users\\johnbenjamincastrosa\\source\\repos\\PersonasSolution\\Personas.EF\\Personas.EF.vbproj"
+              "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.EF/Personas.EF.vbproj": {
+                "projectPath": "/Users/johnbenjamincastrosanabria/Desktop/PersonasSolution/Personas.EF/Personas.EF.vbproj"
               }
             }
           }
@@ -341,7 +301,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -360,15 +320,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.25, 8.0.25]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.25, 8.0.25]"
             }
           ],
           "frameworkReferences": {
@@ -376,7 +332,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/local/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
