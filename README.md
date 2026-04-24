@@ -28,6 +28,9 @@ RESTful API para gestión de personas y direcciones desarrollada con **VB.NET**,
 
 ```
 PersonasSolution/
+├── Database/                  # Scripts SQL de base de datos
+│   ├── CreateDatabase.sql     # Script de creación de BD
+│   └── SeedData.sql           # Datos de prueba
 ├── Personas.Api/              # Capa de presentación (API REST)
 │   ├── Controllers/           # Controladores de API
 │   ├── Middleware/            # Middleware personalizado
@@ -53,9 +56,25 @@ git clone https://github.com/full-stack-dev-johncastrosanabria/PersonasSolution.
 cd PersonasSolution
 ```
 
-### 2. Configurar la cadena de conexión
+### 2. Crear la base de datos
 
-Editar `Personas.Api/appsettings.json`:
+Este proyecto utiliza un enfoque **Database-First**. Ejecuta el script SQL para crear la base de datos:
+
+**Opción A: SQL Server Management Studio (SSMS)**
+1. Abre SSMS y conéctate a tu instancia de SQL Server
+2. Abre el archivo `Database/CreateDatabase.sql`
+3. Ejecuta el script (F5)
+4. (Opcional) Ejecuta `Database/SeedData.sql` para datos de prueba
+
+**Opción B: Línea de comandos**
+```bash
+sqlcmd -S localhost -i Database/CreateDatabase.sql
+sqlcmd -S localhost -d PersonasDb -i Database/SeedData.sql
+```
+
+### 3. Configurar la cadena de conexión
+
+Editar `Personas.Api/appsettings.json` según tu configuración de SQL Server:
 
 ```json
 {
@@ -65,16 +84,15 @@ Editar `Personas.Api/appsettings.json`:
 }
 ```
 
-### 3. Crear la base de datos
-
-```bash
-cd Personas.Api
-dotnet ef database update
+**Nota:** Si usas autenticación SQL Server en lugar de Windows Authentication:
+```json
+"DefaultConnection": "Server=localhost;Database=PersonasDb;User Id=tu_usuario;Password=tu_contraseña;TrustServerCertificate=True;"
 ```
 
 ### 4. Ejecutar la aplicación
 
 ```bash
+cd Personas.Api
 dotnet run
 ```
 
@@ -89,7 +107,7 @@ La API estará disponible en:
 
 | Método | Endpoint | Descripción |
 |--------|----------|-------------|
-| GET | `/api/personas` | Obtener lista paginada de personas |
+| GET | `/api/personas?search=&page=1&pageSize=10` | Obtener lista paginada de personas |
 | GET | `/api/personas/{id}` | Obtener persona por ID |
 | POST | `/api/personas` | Crear nueva persona |
 | PUT | `/api/personas/{id}` | Actualizar persona |
@@ -107,7 +125,7 @@ La API estará disponible en:
 
 | Método | Endpoint | Descripción |
 |--------|----------|-------------|
-| GET | `/health` | Estado de salud de la API |
+| GET | `/health` | Estado de salud de la API y base de datos |
 
 ## 📝 Ejemplos de Uso
 

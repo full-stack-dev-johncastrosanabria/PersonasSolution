@@ -12,6 +12,7 @@ services:
       - "1433:1433"
     volumes:
       - sqlserver-data:/var/opt/mssql
+      - ./Database:/docker-entrypoint-initdb.d
     networks:
       - personas-network
     healthcheck:
