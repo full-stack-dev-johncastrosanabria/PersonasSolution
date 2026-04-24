@@ -30,6 +30,12 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+# Specific build output directories
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+
 # Visual Studio 2015/2017 cache/options directory
 .vs/
 
