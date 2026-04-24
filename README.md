@@ -210,7 +210,7 @@ Este proyecto está bajo la Licencia MIT.
 
 **John Castro Sanabria**
 - GitHub: [@full-stack-dev-johncastrosanabria](https://github.com/full-stack-dev-johncastrosanabria)
-- Email: castrosanabriajohn2@gmail.com
+- Email: castrosanabriajohn@gmail.com
 
 ## 🙏 Agradecimientos
 
